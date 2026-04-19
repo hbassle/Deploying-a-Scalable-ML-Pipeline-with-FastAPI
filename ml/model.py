@@ -76,11 +76,13 @@ def save_model(model, path):
     # https://docs.python.org/3/library/pickle.html
     with open(path, 'wb') as f:
             pickle.dump(model, f)
+            print(f'Model saved to {path}')
 
 def load_model(path):
     """ Loads pickle file from `path` and returns it."""
     with open(path, 'rb') as f:
             model = pickle.load(f)
+            print(f'Loading model from {path}')
     return model
 
 
