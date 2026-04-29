@@ -1,7 +1,8 @@
 import json
 
 import requests
-
+# referenced requests technical documentation for get, put and response syntax.
+# https://requests.readthedocs.io/en/latest/user/quickstart/#make-a-request
 
 r = requests.get('http://127.0.0.1:8000')
 

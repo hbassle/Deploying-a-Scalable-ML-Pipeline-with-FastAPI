@@ -11,6 +11,7 @@ from ml.model import (
 )
 from sklearn.linear_model import LogisticRegression
 
+# Utilied Udacity AI to assist in creating small test data sets.
 def test_compute_model_metrics():
     """
     Validates compute_model_metrics() returns 

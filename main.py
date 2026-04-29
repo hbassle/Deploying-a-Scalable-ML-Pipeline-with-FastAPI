@@ -32,6 +32,8 @@ encoder = load_model(path)
 path = os.path.join("","model","model.pkl") 
 model = load_model(path)
 
+# Referenced FastAPI documentation for syntax and usage. 
+# https://fastapi.tiangolo.com/tutorial/body/#editor-support
 app = FastAPI()
 
 @app.get("/")
