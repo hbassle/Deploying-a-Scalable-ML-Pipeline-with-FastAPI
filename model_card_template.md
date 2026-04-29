@@ -1,7 +1,5 @@
 # Model Card
 
-For additional information see the Model Card paper: https://arxiv.org/pdf/1810.03993.pdf
-
 ## Model Details
  - Developed by Heather Bassler, student at Western Governors University
  - Model Date: 2026-04-19
