@@ -32,17 +32,14 @@ encoder = load_model(path)
 path = os.path.join("","model","model.pkl") 
 model = load_model(path)
 
-# TODO: create a RESTful API using FastAPI
 app = FastAPI()
 
-# TODO: create a GET on the root giving a welcome message
 @app.get("/")
 async def get_root():
     """ Say hello!"""
     return {"message":"Hello World"}
 
 
-# TODO: create a POST on a different path that does model inference
 @app.post("/data/")
 async def post_inference(data: Data):
     # DO NOT MODIFY: turn the Pydantic model into a dict.
