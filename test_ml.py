@@ -11,7 +11,6 @@ from ml.model import (
 )
 from sklearn.linear_model import LogisticRegression
 
-# TODO: implement the first test. Change the function name and input as needed
 def test_compute_model_metrics():
     """
     Validates compute_model_metrics() returns 
@@ -34,9 +33,6 @@ def test_compute_model_metrics():
     assert 0 <= r <= 1, f"Recall value {r} is not between 0 and 1"
     assert 0 <= f <= 1, f"F Beta value {f} is not between 0 and 1"
 
-
-
-# TODO: implement the second test. Change the function name and input as needed
 def test_train_model():
     """
     Validates train_model() returns 
@@ -75,8 +71,6 @@ def test_train_model():
 
     assert fit==True, "Model has not been fit"
 
-
-# TODO: implement the third test. Change the function name and input as needed
 def test_inference():
     """
     Validates that inference function returns 
